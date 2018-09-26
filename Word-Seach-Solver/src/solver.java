@@ -79,7 +79,7 @@ public class solver {
 					
 					
 				}
-				else if(str_com.indexOf(puzzle_ans[l]) != 0 && str_com.indexOf(puzzle_ans[l]) != -1) {
+				if(str_com.indexOf(puzzle_ans[l]) != 0 && str_com.indexOf(puzzle_ans[l]) != -1) {
 					System.out.println("Solution found at: " + str_com.indexOf(puzzle_ans[l]) + " for " + puzzle_ans[l]);
 				}
 				else {
